@@ -1,0 +1,31 @@
+    h1 {
+        color: gold;
+        font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+        font-size: 70px;
+    }
+
+    h2{
+        color: red;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-size: 40px;
+        font-style: italic;
+        text-transform: capitalize;
+    }
+
+    p {
+        font-family: 'Segoe UI';
+        /* color: blue; */
+        text-indent: 50px;
+        font-variant: small-caps;
+        color: blueviolet;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
