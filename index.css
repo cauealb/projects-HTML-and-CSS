@@ -8,6 +8,13 @@ body {
     background-color: rgb(178, 184, 201);
     border-bottom: 2px solid blue;
     font-size: 50px;
+    box-sizing: border-box;
+}
+
+.para {
+    width: 80%;
+    font-variant: small-caps;
+    margin: 15px auto 0 auto;
 }
 
 .name {
@@ -26,17 +33,22 @@ body {
 .txt1 {
     width: 250px;
     margin: 15px auto 0 auto;
+    font-variant: small-caps;
 }
 
 .object {
-    text-align: start;
+    text-align: left;
     padding-left: 10px;
-    box-sizing: border-box;
     margin: 100px auto 0 auto;
 }
 
-.txt2 {
-    text-align: start;
-    width: 80%;
-    margin: 10px auto 0 auto;
+.xp {
+    margin: 60px auto 0 auto;
+    text-align: left;
+    padding-left: 10px;
+}
+
+b {
+    color: rgb(21, 0, 255);
+    font-weight: bold;
 }
