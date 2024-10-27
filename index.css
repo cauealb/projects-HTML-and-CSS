@@ -58,3 +58,14 @@ b {
     padding-left: 10px;
     text-align: left;
 }
+
+.corses {
+    padding: 10px;
+    text-align: left;
+}
+
+ul li {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    list-style: square inside;
+}
