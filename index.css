@@ -67,5 +67,5 @@ b {
 ul li {
     width: 80%;
     margin: 0 auto 0 auto;
-    list-style: square inside;
+    list-style: square;
 }
