@@ -15,13 +15,16 @@
         margin: 50px auto 0 auto;
     }
 
-    .p1 {
-        padding: 30px;
-        border: 10px solid black;
+    a {
+        color: inherit;
+        text-decoration: none;
+        background-color: yellow;
+
+        padding: 10px;
+        display: inline-block;
     }
 
-    .p2 {
-        padding: 30px;
-        border: 10px solid black;
-        box-sizing: border-box;
+    b {
+        background-color: hsl(6, 44%, 60%);
+        display: inline-block;
     }
