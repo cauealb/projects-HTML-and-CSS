@@ -58,52 +58,32 @@ a:hover{
     margin: 40px auto 40px auto;
 }
 
+.h3-base {
+    font-size: 25px;
+    padding-left: 4px;
+    background-color: #ccc;
+    border-bottom: 1px solid rgb(174, 174, 174);
+}
+
+.ft-base {
+    padding: 4px;
+    background-color: #b0afaf;
+    font-size: 15px;
+    width: 7%;
+    text-align: center;
+}
+
+.base {
+    width: 70%;
+    background-color: rgb(246, 240, 240);
+    padding: 10px;
+}
+
 .carga {
     margin-top: 220px;
 }
 
-.html {
-    width: 70%;
-    background-color: rgb(246, 240, 240);
-    padding: 10px;
-}
-
-.h3-html {
-    font-size: 25px;
-    padding-left: 4px;
-    background-color: #ccc;
-    border-bottom: 1px solid rgb(174, 174, 174);
-}
-
-.ft-html {
-    padding: 4px;
-    background-color: #b0afaf;
-    font-size: 15px;
-    width: 7%;
-    text-align: center;
-}
-
 .a-modific {
-    color: blue;;
-}
-
-.css {
-    width: 70%;
-    background-color: rgb(246, 240, 240);
-    padding: 10px;
-}
-
-.h3-css {
-    font-size: 25px;
-    padding-left: 4px;
-    background-color: #ccc;
-    border-bottom: 1px solid rgb(174, 174, 174);
-}
-
-.ft-css {
-    padding: 4px;
-    background-color: #b0afaf;
-    font-size: 15px;
-    width: 7%;
-    text-align: center;
+    color: blue;
+    text-decoration: none;
 }
