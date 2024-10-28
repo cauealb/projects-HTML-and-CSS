@@ -87,3 +87,10 @@ a:hover{
     color: blue;
     text-decoration: none;
 }
+
+.principal {
+    text-align: center;
+    color: white;
+    background-color: #717171;
+    padding: 16px;
+}
