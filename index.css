@@ -54,12 +54,35 @@ a:hover{
     border-bottom: 1px solid white;
 }
 
+.margin-base {
+    margin: auto;
+}
+
 .carga {
     margin-top: 220px;
 }
 
 .html {
-    width: 80%;
+    width: 70%;
     background-color: rgb(246, 240, 240);
-    margin: 0 auto 0 auto;
+    padding: 10px
+}
+
+.h3-html {
+    font-size: 25px;
+    padding-left: 4px;
+    background-color: #ccc;
+    border-bottom: 1px solid rgb(174, 174, 174);
+}
+
+.ft-html {
+    padding: 4px;
+    background-color: #b0afaf;
+    font-size: 15px;
+    width: 7%;
+    text-align: center;
+}
+
+.a-modific {
+    color: blue;
 }
