@@ -55,7 +55,7 @@ a:hover{
 }
 
 .margin-base {
-    margin: auto;
+    margin: 40px auto 40px auto;
 }
 
 .carga {
@@ -65,7 +65,7 @@ a:hover{
 .html {
     width: 70%;
     background-color: rgb(246, 240, 240);
-    padding: 10px
+    padding: 10px;
 }
 
 .h3-html {
@@ -84,5 +84,26 @@ a:hover{
 }
 
 .a-modific {
-    color: blue;
+    color: blue;;
+}
+
+.css {
+    width: 70%;
+    background-color: rgb(246, 240, 240);
+    padding: 10px;
+}
+
+.h3-css {
+    font-size: 25px;
+    padding-left: 4px;
+    background-color: #ccc;
+    border-bottom: 1px solid rgb(174, 174, 174);
+}
+
+.ft-css {
+    padding: 4px;
+    background-color: #b0afaf;
+    font-size: 15px;
+    width: 7%;
+    text-align: center;
 }
