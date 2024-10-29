@@ -8,6 +8,7 @@ body {
     background-size: cover;
     background-position: right center;
     height: 600px;
+    padding-top: 1px;
 }
 
 .menu li {
