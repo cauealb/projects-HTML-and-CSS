@@ -1,96 +1,28 @@
 body {
     margin: 0;
-    background-color: #ccc;
 }
 
-.hero {
-    background-image: url(./Imagens/bg-3.jpg);
-    background-size: cover;
-    background-position: right center;
-    height: 600px;
-    padding-top: 1px;
+.container {
+    border: 2px solid black;
+    border-radius: 2px;
+    width: 300px;
 }
 
-.menu li {
-    list-style: none;
-    display: inline-block;
-    text-align: right;
-    margin-left: 1px;
-}
-
-.menu {
-    padding: 20px;
-    text-align: right;
-}
-
-.menu a {
-    color: inherit;
-    text-decoration: inherit;
-    padding: 20px;
-    margin-top: 10px;
-    background-color: #ccc;
-    border: 1px solid white;
-}
-
-a:hover{
-    background-color: black;
-    color: white;
-}
-
-h1{
-    color: white;
-    font-family: sans-serif;
-    font-size: 70px;
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-}
-
-.sub-text {
-    width: 22%;
-    color: white;
-    font-size: 15px;
-    padding: 16px;
-    margin: auto;
-    background-color: rgba(0, 0, 0, .7);
-    border-bottom: 1px solid white;
-}
-
-.content {
-    margin-top: 100px;
-}
-
-.margin-base {
-    margin: 40px auto 40px auto;
-}
-
-.h3-base {
-    font-size: 25px;
-    padding-left: 4px;
-    background-color: #ccc;
-    border-bottom: 1px solid rgb(174, 174, 174);
-}
-
-.ft-base {
-    padding: 4px;
-    background-color: #b0afaf;
-    font-size: 15px;
-    width: 7%;
-    text-align: center;
-}
-
-.base {
-    width: 70%;
-    background-color: rgb(246, 240, 240);
+.item {
+    background-color: yellow;
     padding: 10px;
-}
-.a-modific {
-    color: blue;
-    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
 }
 
-.principal {
-    text-align: center;
-    color: white;
-    background-color: #717171;
-    padding: 16px;
+.fit-content {
+    width: fit-content;
+}
+
+.min-content {
+    width: min-content;
+}
+
+.max-content {
+    width: max-content;
 }
