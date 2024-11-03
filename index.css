@@ -14,21 +14,18 @@
     align-items: center;
 }
 
-.box, .box2, .box3, .box4{
+.box1, .box2, .box3, .box4{
     width: 25%;
     height: 100px;
     background-color: rgba(255, 0, 200, 0.155);
     margin: 0 15px;
 }
 
-.box2 {
-    order: 1;
-}
-
-.box3 {
-    order: -1;
+.box1 {
+    align-self: flex-start;
 }
 
 .box4 {
-    order: 2
+    align-self: flex-end;
+    flex: 0 1 600px
 }
