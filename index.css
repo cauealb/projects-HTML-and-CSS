@@ -1,22 +1,37 @@
-#div1 {
-    background-color: rgba(255, 0, 0, 0.4);
-    width: 40%;
-    margin: auto;
-    position: sticky;
-    top: 0;
-    bottom: 0;
+div {
+    width: 60%;
+    border: 5px solid black;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    margin: 16px;
 }
 
-#div2 {
-    background-color: rgba(0, 255, 0, 0.4);
-    width: 40%;
-}
-
-#div3 {
-    background-color: rgba(0, 0, 255, 0.4);
-    width: 30px;
-    height: 30px;
+.div2.grupo2 {
     position: absolute;
+    top: 0;
     right: 0;
-    cen
+    background-color: white;
+    z-index: 0;
 }
+
+.div2.grupo1 {
+    /* position: absolute; */
+    top: 30px;  
+    left: 0;
+    z-index: 0;
+    background-color: rgb(255, 247, 9);
+}   
+
+.div4.grupo1 {
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+    background-color: green;
+}
+
+.div3.grupo1 {
+    position: relative;
+    z-index: 0;
+    background-color: rgb(255, 255, 255);
+}
+
