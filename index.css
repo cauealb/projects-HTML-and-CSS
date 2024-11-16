@@ -1,20 +1,15 @@
-:root {
-    --color: green;
-}
-
 html {
-    font-size: 5rem;
-    font-weight: bold;
+    font-size: 200%;
 }
 
-p {
-    color: var(--color);
+@font-face {
+    font-family: font-alves;
+    src: url(fonts/nadia/nadia-serif.eot) format("eot"), 
+    url(fonts/nadia/nadia-serif.svg) format("svg"),
+    url(fonts/nadia/nadia-serif.ttf) format("truetype"),
+    url(fonts/nadia/nadia-serif.woff) format("woff");
 }
 
-.div2 {
-    --color: red
-}
-
-.div1 {
-    --color: orange
+h1 {
+    font-family: font-alves;
 }
