@@ -4,7 +4,9 @@ html {
 
 @font-face {
     font-family: font-alves;
-    src: url(fonts/nadia/nadia-serif.eot) format("eot"), 
+    src: local("Nadia Serif"),
+    local("Nadia-Serif"),
+    url(fonts/nadia/nadia-serif.eot) format("eot"), 
     url(fonts/nadia/nadia-serif.svg) format("svg"),
     url(fonts/nadia/nadia-serif.ttf) format("truetype"),
     url(fonts/nadia/nadia-serif.woff) format("woff");
