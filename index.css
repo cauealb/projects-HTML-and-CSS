@@ -1,8 +1,10 @@
-html {
-    font-size: 62.5%;
+.pai {
+    width: 50%;
+    margin: auto;
+    background-color: yellow;
 }
 
-p {
-    background-color: red;
-    font-size: 30px;
+.filho {
+    padding: 232px;
+    background-color: gray;
 }
