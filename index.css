@@ -1,31 +1,11 @@
-.container {
-    width: 50%;
-    height: 500px;
-    background-color: rgba(0, 0, 0, 0.155);
-    border: 5px solid black;
-
-    display: flex;
-    gap: 15px;
-    
+html {
+    font-size: 80%;
 }
 
-.flex-container1 {
-    justify-content: center;
-    align-items: center;
+p {
+    font-size: 50%;
 }
 
-.box1, .box2, .box3, .box4{
-    width: 25%;
-    height: 100px;
-    background-color: rgba(255, 0, 200, 0.155);
-    margin: 0 15px;
-}
-
-.box1 {
-    align-self: flex-start;
-}
-
-.box4 {
-    align-self: flex-end;
-    flex: 0 1 600px
+b {
+    font-size: 3em;
 }
