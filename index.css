@@ -1,10 +1,15 @@
-.pai {
+body {
+    margin-bottom: 1500px;
+}
+
+.Porcentagem {
     width: 50%;
-    margin: auto;
+    height: 500px;
     background-color: yellow;
 }
 
-.filho {
-    padding: 232px;
-    background-color: gray;
+.viewport {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
 }
