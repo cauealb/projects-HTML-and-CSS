@@ -1,5 +1,8 @@
+html {
+    font-size: 62.5%;
+}
+
 p {
     background-color: red;
-    font-size: 2em;
-    padding: 1em;
+    font-size: 30px;
 }
