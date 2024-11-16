@@ -1,11 +1,14 @@
-html {
-    font-size: 80%;
+.h1 {
+    margin: auto;
 }
 
-p {
-    font-size: 50%;
+.pai {
+    width: 50%;
+    margin: auto;
+    background-color: #eee;
 }
 
-b {
-    font-size: 3em;
+.filhos {
+    padding-top: 50%;
+    background-color: yellow;
 }
