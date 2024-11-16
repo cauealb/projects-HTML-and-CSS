@@ -3,13 +3,14 @@
     height: 300px;
     background-color: blue;
     margin: 200px auto;
-    transition-property: width;
+    transition-property: width color;
     transition-duration: 1s;
     box-shadow: 0 5px 10px blue;
     transition-timing-function: ease-in-out;
 }
 .container:hover {
     width: 900px;
+    background-color: orange;
 }
 
 h1 {
