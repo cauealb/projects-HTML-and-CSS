@@ -8,12 +8,12 @@ details[open] {
     background-color: transparent;
     color: red;
 }
-
+/* 
 :popover-open {
     border-radius: 30px;
     border: 1px solid;
-}
+} */
 
-::backdrop {
-    background-color: rgba(0, 0, 0, .6)
+.container :popover-open {
+    inset: unset;
 }
