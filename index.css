@@ -1,0 +1,10 @@
+details {
+    cursor: pointer;
+    background-color: #eee;
+    margin-bottom: 40px;
+}
+
+details[open] {
+    background-color: transparent;
+    color: red;
+}
