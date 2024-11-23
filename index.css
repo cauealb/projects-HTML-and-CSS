@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px 26px;
+}
+
+thead {
+    border: 1px solid;
+    padding: 5px 26px;
+}
