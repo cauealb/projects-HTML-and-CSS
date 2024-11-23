@@ -4,13 +4,20 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-
-td {
-    border: 1px solid;
-    padding: 5px 26px;
+table {
+    border-collapse: collapse;
 }
 
-thead {
+td, th {
     border: 1px solid;
     padding: 5px 26px;
+    text-align: center;
+}
+
+th {
+     background-color: yellowgreen;
+}
+
+td {
+    background-color: beige;
 }
