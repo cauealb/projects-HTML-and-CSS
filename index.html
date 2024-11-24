@@ -4,14 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        fieldset {
+            height: 50vh;
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    </style>
 </head>
 <body>
     <form action="https://www.google.com/search" method="get">
-        <label for="login">Faça seu login:</label>
-        <input type="text" name="q" id="login"> <br>
-        <label for="pass">Faça sua senha:</label>
-        <input type="password" name="password" id="pass">
-        <input type="submit" value="OK">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="login">Faça seu login:</label>
+            <input type="text" name="q" id="login"> <br>
+            <label for="pass">Faça sua senha:</label>
+            <input type="password" name="password" id="pass">
+            <input type="submit" value="OK">
+        </fieldset>
+        
     </form>
 </body>
 </html>
