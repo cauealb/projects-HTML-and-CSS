@@ -17,8 +17,8 @@
         form {
             background-color: white;
             border-radius: 6px;
-            width: 25%;
-            box-shadow: 4px 3px 5px rgba(0, 0, 0, .5);
+            width: 360px;
+            box-shadow: 4px 5px 10px rgba(0, 0, 0, .5);
         }
 
         fieldset {
@@ -30,7 +30,9 @@
 
         legend {
             text-align: center;
-            margin-top: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px 0;
         }
 
         h3 {
@@ -39,27 +41,27 @@
         }
 
         .input {
-            border-radius: 3px;
+            border: 1px solid #333;
             height: 30px;
         }
 
         .btn {
             border-radius: 3px;
             height: 45px;
-            margin: 20px 0;
+            margin: 20px 0 25px;
             cursor: pointer;
         }
 
         label {
-            margin-top: 20px;
+            margin-top: 15px;
         }
     </style>
 </head>
 <body>
     <h1>Login</h1>
     <form action="#" method="post" target="_blank">
-        <fieldset>
-            <h3>Entre com seus dados de acesso</h3>
+        <fieldset> 
+            <legend>Entre com seus dados de acesso</legend>
 
             <label for="user">Username:</label>
             <input type="text" id="user" required autofocus class="input"> 
