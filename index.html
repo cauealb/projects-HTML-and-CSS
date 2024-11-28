@@ -44,12 +44,17 @@
             height: 30px;
         }
 
+        .btns__input {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+
         .btn {
             border-radius: 3px;
             border: 1px solid #ccc;
             height: 45px;
             padding: 0 25px;
-            margin: 20px 0 0 auto;
             width: fit-content;
             cursor: pointer;
         }
@@ -71,7 +76,10 @@
             <label for="Sobrenome">Sobrenome:</label>
             <input type="password" id="Sobrenome" required class="input" placeholder="Sobrenome">
 
-            <input type="submit" value="Entrar" class="btn">
+            <div class="btns__input">
+                <input type="reset" value="Apagar" class="btn">
+                <input type="submit" value="Entrar" class="btn">
+            </div>
         </fieldset>
     </form>
 </body>
