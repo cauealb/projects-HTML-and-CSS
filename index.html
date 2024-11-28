@@ -60,22 +60,28 @@
         label {
             margin-top: 15px;
         }
+
     </style>
 </head>
 <body>
     <h1>Login</h1>
     <form action="#" method="post" target="_blank">
         <fieldset> 
-            <legend>Forneça suas informações</legend>
-            Possui Atividade?
-            <br>
+            <legend>Forneça seus interesses</legend>
+
             <label>
-                <input type="radio" name="active">Sim
+                <input type="checkbox" name="infos" value="html">HTML
+            </label>
+            <label>
+                <input type="checkbox" name="infos" value="css">CSS
+            </label>
+            <label>
+                <input type="checkbox" name="infos" value="js">Javascript
+            </label>
+            <label>
+                <input type="checkbox" name="infos" value="react">React
             </label>
 
-            <label> 
-                <input type="radio" name="active">Não
-            </label>
             <div class="btns__input">
                 <input type="reset" value="Apagar" class="btn">
                 <input type="submit" value="Entrar" class="btn">
