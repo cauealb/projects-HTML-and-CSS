@@ -41,14 +41,16 @@
         }
 
         .input {
-            border: 1px solid #333;
             height: 30px;
         }
 
         .btn {
             border-radius: 3px;
+            border: 1px solid #ccc;
             height: 45px;
-            margin: 20px 0 25px;
+            padding: 0 25px;
+            margin: 20px 0 0 auto;
+            width: fit-content;
             cursor: pointer;
         }
 
@@ -68,12 +70,6 @@
 
             <label for="Sobrenome">Sobrenome:</label>
             <input type="password" id="Sobrenome" required class="input" placeholder="Sobrenome">
-
-            <label for="idade">Idade:</label>
-            <input type="text" id="idade" required placeholder="Idade" class="input">
-
-            <label for="conta">Número do cartão de crédito:</label>
-            <input type="password" id="conta" required class="input" placeholder="Cartão de Crédito">
 
             <input type="submit" value="Entrar" class="btn">
         </fieldset>
