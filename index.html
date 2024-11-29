@@ -69,12 +69,27 @@
         <fieldset> 
             <legend>Forneça seus interesses</legend>
 
-            <select name="linguagens" required>
-                <option value="">Selecione</option>
-                <option value="html">HTML</option>
-                <option value="css">CSS</option>
-                <option value="js">Javascript</option>
-                <option value="react">React</option>
+            <label for="label">Selecione sua linguagem</label>
+            <select name="linguagens" id="label" required>
+                <option value="">Selecione sua linguagem</option>
+
+                <optgroup label="Front-End">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">Javascript</option>
+                </optgroup>
+
+                <optgroup label="Back-End">
+                    <option value="java">Java</option>
+                    <option value="python">Pyhton</option>
+                    <option value="php">PHP</option>
+                </optgroup>
+
+                <optgroup label="SQL">
+                    <option value="server">SQLServer</option>
+                    <option value="lite">SQLLite</option>
+                    <option value="postgree">PostgreeSQl</option>
+                </optgroup>
             </select>
 
             <div class="btns__input">
