@@ -61,20 +61,19 @@
             margin-top: 15px;
         }
 
+        textarea {
+            resize: none;
+        }
+
     </style>
 </head>
 <body>
     <h1>Login</h1>
     <form action="#" method="post" target="_blank">
         <fieldset> 
-            <legend>Forneça seus interesses</legend>
+            <legend>Forneça sua mensagem</legend>
 
-            <input type="text" list="lll">
-            <datalist id="lll">
-                <option value="HTML">
-                <option value="CSS">
-                <option value="Javascript">
-            </datalist>
+            <textarea name="msg" cols="40" rows="10"></textarea>
 
             <div class="btns__input">
                 <input type="reset" value="Apagar" class="btn">
