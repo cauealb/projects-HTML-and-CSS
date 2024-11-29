@@ -69,15 +69,20 @@
         <fieldset> 
             <legend>Forneça seus interesses</legend>
 
-            <input type="text" list="dataList">
-            <datalist id="dataList">
-                <option value="HTML">
-                <option value="CSS">
-                <option value="Javascript">
-                <option value="React">
-                <option value="Angular">
-            </datalist>
+            <select name="linguagem" required multiple size="9">
+                <option value="">Selecione</option>
 
+                <optgroup label="Front-End">
+                    <option value="Html">HTML</option>
+                    <option value="Html">Javascript</option>
+                    <option value="Html">CSS</option>
+                </optgroup>
+
+                <optgroup label="Back-End">
+                    <option value="Java">Java</option>
+                    <option value="python">Python</option>
+                </optgroup>
+            </select>
 
             <div class="btns__input">
                 <input type="reset" value="Apagar" class="btn">
