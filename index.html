@@ -69,18 +69,13 @@
         <fieldset> 
             <legend>Forneça seus interesses</legend>
 
-            <label>
-                <input type="checkbox" name="infos" value="html">HTML
-            </label>
-            <label>
-                <input type="checkbox" name="infos" value="css">CSS
-            </label>
-            <label>
-                <input type="checkbox" name="infos" value="js">Javascript
-            </label>
-            <label>
-                <input type="checkbox" name="infos" value="react">React
-            </label>
+            <select name="linguagens" required>
+                <option value="">Selecione</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">Javascript</option>
+                <option value="react">React</option>
+            </select>
 
             <div class="btns__input">
                 <input type="reset" value="Apagar" class="btn">
