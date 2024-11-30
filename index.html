@@ -22,6 +22,8 @@
         }
 
         fieldset {
+            display: flex;
+            flex-direction: column;
             border: none;
             height: auto;
         }
@@ -65,6 +67,11 @@
             resize: none;
         }
 
+        .range {
+            width: 50%;
+            align-self: center;
+        }
+
     </style>
 </head>
 <body>
@@ -73,8 +80,7 @@
         <fieldset> 
             <legend>Forneça sua mensagem</legend>
 
-            <input type="text" required>
-            <input type="search" required>
+            <input type="range" min="0" max="10" step=".5" class="range">
             
             <div class="btns__input">
                 <input type="reset" value="Apagar" class="btn">
