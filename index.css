@@ -1,0 +1,17 @@
+article {
+    outline: 5px solid black;
+}
+
+article p {
+    border: 1px solid green;
+}
+
+article a > b {
+    border: 1px solid black;
+
+    &:hover {
+        background-color: black;
+    }
+}
+
+
