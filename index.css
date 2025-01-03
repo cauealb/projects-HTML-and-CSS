@@ -14,4 +14,12 @@ article a > b {
     }
 }
 
+p + p {
+    padding: 10rem;
+}
+
+
+article h3 ~ p > a {
+    color: rgb(0, 0, 97);
+}
 
