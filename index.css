@@ -1,0 +1,32 @@
+ul li a {
+    text-decoration: none;
+}
+
+ul a[href="#"]:not(.link_ativo) {
+    opacity: 0.6;
+    color: red;
+}
+
+a[href="#"] {
+     &:hover {
+        background-color: black;
+     }
+}
+
+a[href$=".pdf"] {
+    color: yellow;
+}
+
+a[href^="http"] {
+    color: aqua;
+}
+
+a[target] {
+    &:hover {
+        background-color: red;
+    }
+}
+
+a[href$="html"] {
+    color: black;
+}
