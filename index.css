@@ -23,3 +23,6 @@ article h3 ~ p > a {
     color: rgb(0, 0, 97);
 }
 
+article h3 ~ p:not(.top) {
+    background-color: yellow;
+}
