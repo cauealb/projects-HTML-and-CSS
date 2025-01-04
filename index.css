@@ -1,1 +1,9 @@
+a[target="_blank"]::after{
+    content: url(imgs/newWindow-icon.png);
+    margin-left: 7px;
+}
 
+a[href$=".pdf"]::before{
+    content: url(imgs/pdf-icon.gif);
+    margin-right: 7px;
+}
