@@ -7,3 +7,15 @@ a[href$=".pdf"]::before{
     content: url(imgs/pdf-icon.gif);
     margin-right: 7px;
 }
+
+input:not(:disabled):checked ~ label:first-of-type {
+    color: green;
+}
+
+input:not(:disabled) ~ label:first-of-type {
+    color: red;
+}
+
+input:disabled ~ label {
+    color: blue;
+}
