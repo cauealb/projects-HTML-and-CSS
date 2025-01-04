@@ -19,3 +19,7 @@ input:not(:disabled) ~ label:first-of-type {
 input:disabled ~ label {
     color: blue;
 }
+
+ol ol ul li:nth-child(3) {
+    background-color: red;
+}
