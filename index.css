@@ -1,18 +1,1 @@
-div {
-    border: 1px solid black;
-    width: 50%;
-    margin: auto;
-    position: relative;;
-}
-
-p::before {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 20px;
-    background-color: black;    
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
 
