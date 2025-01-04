@@ -10,3 +10,21 @@ div p:last-child{
 div p:nth-child(2){
     background-color: aqua;
 }
+
+a:first-of-type {
+    &:hover {
+        background-color: black;
+    }
+}
+
+a:last-of-type{
+    &:hover{
+        background-color: aqua;
+    }
+}
+
+a:nth-of-type(2){
+    &:hover {
+        color: red;
+    }
+}
