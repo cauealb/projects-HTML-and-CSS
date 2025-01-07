@@ -11,10 +11,6 @@ button:disabled {
     color: red
 }
 
-p:empty::before {
-    content: '';
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    background: red;
+a:focus {
+    background-color: red;
 }
