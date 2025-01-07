@@ -14,3 +14,31 @@ button:disabled {
 a:focus {
     background-color: red;
 }
+
+p:focus {
+    color: aqua;
+}
+
+input[type="text"]:read-write {
+    background-color: #ddd;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+input[type="text"]:read-only {
+    color: red;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+input[type="text"]::placeholder {
+    color: black ;
+}
+
+input[type="text"]:placeholder-shown {
+    background-color: aqua;
+    color: black;
+    border-radius: 50%;
+}
