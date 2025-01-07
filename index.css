@@ -1,0 +1,20 @@
+button:not(:disabled) {
+    background-color: #ccc;
+    color: white;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+button:disabled {
+    color: red
+}
+
+p:empty::before {
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: red;
+}
