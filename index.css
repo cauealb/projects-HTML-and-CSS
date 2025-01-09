@@ -1,3 +1,29 @@
-p:has(a)  {
-    color: red;
+html {
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+tr:has(td:first-child input[type="checkbox"]:checked) {
+    background-color: rgb(159, 204, 159);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th:first-child {
+    border-top-left-radius: 8px;
+}
+
+th:last-child {
+    border-top-right-radius: 8px;
 }
