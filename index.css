@@ -42,3 +42,7 @@ input[type="text"]:placeholder-shown {
     color: black;
     border-radius: 50%;
 }
+
+p:only-child {
+    background-color: red;
+}
