@@ -1,52 +1,17 @@
-button:not(:disabled) {
-    background-color: #ccc;
-    color: white;
-    border: none;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    font-weight: bold;
+p {
+    display: block;
+    width: 40%;
+    margin: auto;
 }
 
-button:disabled {
-    color: red
-}
 
-a:focus {
-    background-color: red;
-}
-
-p:focus {
-    color: aqua;
-}
-
-input[type="text"]:read-write {
-    background-color: #ddd;
-    outline: none;
-    border: none;
-    padding: 1rem;
-    border-radius: 8px;
-}
-
-input[type="text"]:read-only {
+p::first-letter {
     color: red;
-    padding: 1rem;
-    border-radius: 8px;
+    float: left;
+    font-size: 2rem;
+    margin: 0.30rem;
 }
 
-input[type="text"]::placeholder {
-    color: black ;
-}
-
-input[type="text"]:placeholder-shown {
-    background-color: aqua;
-    color: black;
-    border-radius: 50%;
-}
-
-p:only-child {
-    background-color: red;
-}
-
-p[contenteditable] {
-    border-bottom: 3px solid red;
+p::first-line {
+    text-decoration: overline;
 }
