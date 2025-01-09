@@ -1,21 +1,3 @@
-p {
-    display: block;
-    width: 40%;
-    margin: auto;
-}
-
-
-p::first-letter {
+p:has(a)  {
     color: red;
-    float: left;
-    font-size: 2rem;
-    margin: 0.30rem;
-}
-
-p::first-line {
-    text-decoration: overline;
-}
-
-::selection {
-    background-color: rgba(0, 0, 0, 0.4);
 }
