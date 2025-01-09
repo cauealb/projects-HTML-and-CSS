@@ -46,3 +46,7 @@ input[type="text"]:placeholder-shown {
 p:only-child {
     background-color: red;
 }
+
+p[contenteditable] {
+    border-bottom: 3px solid red;
+}
