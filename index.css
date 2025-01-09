@@ -15,3 +15,7 @@ p::first-letter {
 p::first-line {
     text-decoration: overline;
 }
+
+::selection {
+    background-color: rgba(0, 0, 0, 0.4);
+}
