@@ -29,3 +29,8 @@ p {
 .div4 .destaque {   
     transform: skew(10deg, 3deg)
 }
+
+.div5 .destaque {   
+    transform: translateX(0) rotate(0);
+    transform-origin: left bottom;
+}
