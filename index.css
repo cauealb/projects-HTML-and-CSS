@@ -31,6 +31,9 @@ p {
 }
 
 .div5 .destaque {   
-    transform: translateX(0) rotate(0);
-    transform-origin: left bottom;
+    transform: translateX(100px) rotate(45deg);
+}
+
+.div6 .destaque {   
+    transform: rotate(90deg) translateX(600px);
 }
