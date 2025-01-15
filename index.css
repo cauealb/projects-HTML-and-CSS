@@ -1,15 +1,20 @@
 @property --success-message {
-    syntax: "*";
-    inherits: true;
-    initial-value: blue;
+    syntax: "<color>";
+    inherits: false;
+    initial-value: pink;
 }
 
 :root {
     --error-message: red;
 }
 
+body p{
+    --error2: purple;
+    color: var(--error2);
+}
+
 p {
-    color: var(--error-message, blue);
+    color: var(--success-message);
 }
 
 div {
