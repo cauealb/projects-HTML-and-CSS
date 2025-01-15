@@ -25,3 +25,7 @@ p {
 .div3 .destaque {   
     transform: scale(0.75 ,4)
 }
+
+.div4 .destaque {   
+    transform: skew(10deg, 3deg)
+}
