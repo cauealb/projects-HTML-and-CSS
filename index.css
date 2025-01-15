@@ -21,3 +21,7 @@ p {
 .div2 .destaque {
     transform: rotate(90deg);
 }
+
+.div3 .destaque {   
+    transform: scale(0.75 ,4)
+}
