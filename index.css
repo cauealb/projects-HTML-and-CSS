@@ -2,6 +2,7 @@ div {
     border: 2px solid gray;
     margin: auto;
     width: 30%;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -11,5 +12,12 @@ p {
 
 .destaque {
     background-color: yellow;
-    transform: translate(100%);
+}
+
+.div1 .destaque {
+    transform: translateY(100%);
+}
+
+.div2 .destaque {
+    transform: rotate(90deg);
 }
