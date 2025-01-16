@@ -8,7 +8,7 @@ label span {
     outline: .08em solid gray;
     border-radius: .64em;
     position: relative;
-    /* transition: c 0.2s linear; */
+    cursor: pointer;
 }
 
 input[type="checkbox"] + span::before {
@@ -22,9 +22,11 @@ input[type="checkbox"] + span::before {
     bottom: .04em;
     left: .6em;
     transform: translateX(-.52em);
+    transition: all 0.3s linear;
 }
 
 input[type="checkbox"]:checked + span::before {
     transform: translateX(.52em);
     background-color: rgb(123, 123, 123);
+    transition: all 0.3s linear;
 }
