@@ -51,11 +51,7 @@ label input[type="checkbox"]:checked + span {
     background-color: black;
 }
 
-input {
-    display: none;
-}
-
-label input[type="checkbox"]:checked + span::before {
+label input[type="checkbox"] + span::before {
     background-color: black;
     content: '';
     display: block;
@@ -68,4 +64,11 @@ label input[type="checkbox"]:checked + span::before {
     transform: rotate(45deg);
     border-top-color: transparent;
     border-left-color: transparent;
+    transition: all 0.2s linear;
+    opacity: 0;
+}
+
+
+label input[type="checkbox"]:checked + span::before {
+    opacity: 1;
 }
