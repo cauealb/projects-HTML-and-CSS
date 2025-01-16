@@ -1,10 +1,40 @@
 body {
     font-size: 3rem;
 }
-
-input {
+/*
+.ckh1 {
     display: none;
 }
+
+.ckh1 label span {
+    display: inline-block;
+    font-size: 20px;
+    width: 1em;
+    height: 1em;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.ckh1:checked + label span{
+    background-color: black;
+    position: relative;
+}
+
+.ckh1:checked + label span::before {
+    background-color: black;
+    content: '';
+    display: block;
+    border: .10em solid white;
+    position: absolute; 
+    left: 0.33em;
+    right: 0.31em;
+    top: 0;
+    bottom: 0.22em;
+    transform: rotate(45deg);
+    border-top-color: transparent;
+    border-left-color: transparent;
+} */
 
 label span {
     display: inline-block;
@@ -16,12 +46,16 @@ label span {
     cursor: pointer;
 }
 
-input[type=checkbox]:checked + label span{
-    background-color: black;
+label input[type="checkbox"]:checked + span {
     position: relative;
+    background-color: black;
 }
 
-input[type=checkbox]:checked + label span::before {
+input {
+    display: none;
+}
+
+label input[type="checkbox"]:checked + span::before {
     background-color: black;
     content: '';
     display: block;
