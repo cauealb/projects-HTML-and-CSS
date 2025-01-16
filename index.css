@@ -30,3 +30,19 @@ input[type="checkbox"]:checked + span::before {
     background-color: rgb(123, 123, 123);
     transition: all 0.3s linear;
 }
+
+/* input[type="checkbox"]:focus + span {
+    outline: 1px solid black;
+    outline-offset: -2px;
+    box-sizing: border-box;
+} */
+
+input[type="checkbox"] {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    outline: none;
+}
