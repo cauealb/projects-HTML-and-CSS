@@ -1,39 +1,25 @@
-div {
-    border: 2px solid gray;
-    margin: auto;
-    width: 30%;
-    margin-bottom: 1rem;
+span::before {
+    content: '';
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
-p {
-    width: 50%;
-    margin-bottom: 40px;
+body {
+    font-size: 3rem;
 }
 
-.destaque {
-    background-color: yellow;
+input {
+    display: none;
 }
 
-.div1 .destaque {
-    transform: translateY(100%);
+span:has(input[type="checkbox"]:checked + label){
+    background-color: black;
 }
 
-.div2 .destaque {
-    transform: rotate(90deg);
-}
-
-.div3 .destaque {   
-    transform: scale(0.75 ,4)
-}
-
-.div4 .destaque {   
-    transform: skew(10deg, 3deg)
-}
-
-.div5 .destaque {   
-    transform: translateX(100px) rotate(45deg);
-}
-
-.div6 .destaque {   
-    transform: rotate(90deg) translateX(600px);
+input[type="checkbox"]:checked + label > span::before {
+    background-color: black;
 }
