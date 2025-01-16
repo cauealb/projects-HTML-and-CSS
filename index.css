@@ -2,28 +2,29 @@
 
 label span {
     display: inline-block;
-    font-size: 25px;
+    font-size: 70px;
     width: 2em;
     height: 0.90em;
-    background-color: black;
     outline: .08em solid gray;
     border-radius: .64em;
     position: relative;
+    /* transition: c 0.2s linear; */
 }
 
 input[type="checkbox"] + span::before {
     content: '';
     display: block;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(171, 171, 171);
     border-radius: 50%;
     position: absolute;
-    top: 1px;
-    right: 15px;
-    bottom: 1px;
-    left: 15px;
-    transform: translateX(-13px);
+    top: .04em;
+    right: .6em;
+    bottom: .04em;
+    left: .6em;
+    transform: translateX(-.52em);
 }
 
 input[type="checkbox"]:checked + span::before {
-    transform: translateX(13px);
+    transform: translateX(.52em);
+    background-color: rgb(123, 123, 123);
 }
