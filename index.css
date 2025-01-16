@@ -1,74 +1,11 @@
-body {
-    font-size: 3rem;
-}
-/*
-.ckh1 {
-    display: none;
-}
 
-.ckh1 label span {
-    display: inline-block;
-    font-size: 20px;
-    width: 1em;
-    height: 1em;
-    border: 2px solid black;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.ckh1:checked + label span{
-    background-color: black;
-    position: relative;
-}
-
-.ckh1:checked + label span::before {
-    background-color: black;
-    content: '';
-    display: block;
-    border: .10em solid white;
-    position: absolute; 
-    left: 0.33em;
-    right: 0.31em;
-    top: 0;
-    bottom: 0.22em;
-    transform: rotate(45deg);
-    border-top-color: transparent;
-    border-left-color: transparent;
-} */
 
 label span {
     display: inline-block;
-    font-size: 20px;
-    width: 1em;
+    font-size: 25px;
+    width: 2em;
     height: 1em;
-    border: 2px solid black;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-label input[type="checkbox"]:checked + span {
-    position: relative;
-    background-color: black;
-}
-
-label input[type="checkbox"] + span::before {
-    background-color: black;
-    content: '';
-    display: block;
-    border: .10em solid white;
-    position: absolute; 
-    left: 0.33em;
-    right: 0.31em;
-    top: 0;
-    bottom: 0.22em;
-    transform: rotate(45deg);
-    border-top-color: transparent;
-    border-left-color: transparent;
-    transition: all 0.2s linear;
-    opacity: 0;
-}
-
-
-label input[type="checkbox"]:checked + span::before {
-    opacity: 1;
+    background-color: red;
+    outline: .08em solid gray;
+    border-radius: .64em;
 }
