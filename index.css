@@ -8,9 +8,9 @@ input {
 
 label span {
     display: inline-block;
-    font-size: 45px;
-    width: 1rem;
-    height: 1rem;
+    font-size: 20px;
+    width: 1em;
+    height: 1em;
     border: 2px solid black;
     border-radius: 50%;
     cursor: pointer;
@@ -25,12 +25,12 @@ input[type=checkbox]:checked + label span::before {
     background-color: black;
     content: '';
     display: block;
-    border: .10rem solid white;
+    border: .10em solid white;
     position: absolute; 
-    left: 0.33rem;
-    right: 0.31rem;
+    left: 0.33em;
+    right: 0.31em;
     top: 0;
-    bottom: 0.22rem;
+    bottom: 0.22em;
     transform: rotate(45deg);
     border-top-color: transparent;
     border-left-color: transparent;
