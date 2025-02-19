@@ -1,9 +1,11 @@
-.red {
-    color: blue;
+@media screen and (max-width: 600px) {
+    body {
+        background-color: aqua;
+    }
 }
 
-a::after {
-    content: " (" attr(href) ") - (" attr(target) ")";
-    display: inline-block;
-    margin-left: 8px;
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: blue;
+    }
 }
