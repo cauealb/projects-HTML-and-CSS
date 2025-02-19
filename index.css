@@ -1,65 +1,9 @@
+.red {
+    color: blue;
+}
 
-
-label span {
+a::after {
+    content: " (" attr(href) ") - (" attr(target) ")";
     display: inline-block;
-    font-size: 70px;
-    width: 2em;
-    height: 0.90em;
-    outline: .08em solid gray;
-    border-radius: .64em;
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-input[type="checkbox"] + span::before {
-    content: '';
-    display: block;
-    background-color: rgb(171, 171, 171);
-    border-radius: 50%;
-    position: absolute;
-    top: .04em;
-    right: .6em;
-    bottom: .04em;
-    left: .6em;
-    transform: translateX(-.52em);
-    transition: all 0.3s linear;
-    z-index: 1;
-}
-
-input[type="checkbox"]:checked + span::before {
-    transform: translateX(.52em);
-    background-color: rgb(211, 211, 211);
-    transition: all 0.3s linear;
-    z-index: 1;
-}
-
-input[type="checkbox"] {
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    position: absolute;
-    outline: none;
-}
-
-input + span::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: .64em;
-    background-color: gray;
-    transform: translateX(-100%);
-    transition: transform 0.3s linear;
-    position: absolute;
-}
-
-input:checked + span::after {
-    transform: translateX(0);
-}
-
-input:focus + span {
-    outline: .08em solid black;
+    margin-left: 8px;
 }
