@@ -1,28 +1,21 @@
-@media screen and (max-width: 600px) {
-    body {
-        background-color: aqua;
-    }
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
-@media screen and (min-width: 601px) {
-    .test {
-        width: 600px;
-    }
+.normal {
+    background-color: black;
+    width: 100px;
+    height: 50px;
 }
 
-@media screen and (min-width: 1000px) {
-    body {
-        background-color: blue;
+.goat {
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    
+    position: relative;
+    top: 30px;
+    left: 30px;
     }
-
-    .test {
-        width: 600px;
-        background-color: yellow;
-    }
-}
-
-.test {
-    background-color: blue;
-    width: 320px;
-    height: 80px;
-}
