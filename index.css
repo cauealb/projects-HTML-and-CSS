@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+
+    position: relative;
+    border: 1px solid black;
 }
 
 .normal {
@@ -15,7 +18,9 @@
     width: 100px;
     height: 50px;
     
-    position: relative;
-    top: 30px;
-    left: 30px;
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    /* left: 30px; */
+    z-index: auto;
     }
