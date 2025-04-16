@@ -1,28 +1,12 @@
-body {
-    margin: 0;
-    padding: 0;
+#app {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-
-    position: relative;
+#app > div {
     border: 1px solid black;
 }
 
-.normal {
-    background-color: black;
-    width: 100px;
-    height: 50px;
-}
-
-.goat {
-    background-color: red;
-    width: 100px;
-    height: 50px;
-
-    position: sticky;
-    inset: 0;
+span {
+    border: 1px solid red;
 }
