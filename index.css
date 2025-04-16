@@ -19,6 +19,8 @@ body {
     width: 300px;
     height: 300px;
     border: 2px solid green;
+
+    column-gap: 40px;
 }
 
 #app > * {
