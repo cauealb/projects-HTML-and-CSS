@@ -11,16 +11,14 @@ body {
 
 #app {
     display: grid;
-    grid-template-areas: 
-    "A B C"
-    "A B C"
-    "A D C";
+    grid-template: 
+    "A B B" 100px
+    "A B B" 50px
+    "A D C" 50px / 50px 1fr 2fr;
 
     width: 300px;
     height: 300px;
     border: 2px solid green;
-
-    column-gap: 40px;
 }
 
 #app > * {
