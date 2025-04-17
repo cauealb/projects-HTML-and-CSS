@@ -5,10 +5,11 @@
 #app {
     display: grid;
 
-    grid-template-columns: repeat(3, 70px);
-    grid-template-rows: repeat(3, 70px);
+    grid-template-columns: repeat(4, 40px);
+    grid-template-rows: repeat(5, 40px);
+    gap: 5px;
 
-    place-content: end;
+    place-content: center;
 
     background-color: black;
     color: white;
@@ -17,5 +18,15 @@
 }
 
 #app div {
-    background-color: blue;
+    background-color: #3636365e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.1s linear;
+
+    &:hover {
+        background-color: #525252;
+    }
 }
