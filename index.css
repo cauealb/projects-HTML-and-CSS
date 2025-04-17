@@ -4,9 +4,11 @@
 
 #app {
     display: grid;
-    
+
     grid-template-columns: repeat(3, 70px);
     grid-template-rows: repeat(3, 70px);
+
+    align-content: space-around;
 
     background-color: black;
     color: white;
