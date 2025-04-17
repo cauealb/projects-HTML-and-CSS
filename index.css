@@ -8,7 +8,7 @@
     grid-template-columns: repeat(3, 70px);
     grid-template-rows: repeat(3, 70px);
 
-    justify-content: space-evenly;
+    place-content: end;
 
     background-color: black;
     color: white;
