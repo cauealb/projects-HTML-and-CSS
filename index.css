@@ -27,5 +27,6 @@ body {
 }
 
 #app div:nth-child(5) {
-    align-self: end;
+   justify-self: end;
+   align-self: end;
 }
