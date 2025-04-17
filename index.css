@@ -25,6 +25,7 @@
     align-items: center;
     cursor: pointer;
     transition: all 0.1s linear;
+    font-weight: bold;
 
     &:hover {
         background-color: #525252;
@@ -40,5 +41,13 @@
 
     &:hover {
         background-color: #afafaf98;
+    }
+}
+
+#app .yellow {
+    background-color: #ffae00;
+    
+    &:hover {
+        background-color: #f7d17f;
     }
 }
