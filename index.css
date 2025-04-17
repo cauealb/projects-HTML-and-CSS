@@ -30,3 +30,7 @@
         background-color: #525252;
     }
 }
+
+#app div:nth-child(17) {
+    grid-column-start: 2;
+}
