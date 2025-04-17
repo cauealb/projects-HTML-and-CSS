@@ -34,3 +34,11 @@
 #app div:nth-child(17) {
     grid-column-start: 2;
 }
+
+#app .gray {
+    background-color: #8d8d8d98; 
+
+    &:hover {
+        background-color: #afafaf98;
+    }
+}
