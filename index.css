@@ -11,6 +11,10 @@
     height: 100%;
 }
 
+.cards_wapper {
+    container-type: inline-size;
+}
+
 .info {
     background-color: #ccc;
     padding: .75em;
@@ -31,13 +35,13 @@
     gap: 1em;
 }
 
-@media screen and (min-width: 50em) {
+@container (min-width: 50em) {
     .card {
         display: flex;
     }
 }   
 
-@media screen and (min-width: 70em) {
+@container (min-width: 70em) {
     .cards_conteiner {
         flex-direction: row;
     }
