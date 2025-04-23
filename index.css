@@ -11,8 +11,9 @@
 }
 
 .info {
-    background-color: #999;
+    background-color: #ccc;
     padding: .75em;
+    box-sizing: border-box;
 }
 
 .cta {
