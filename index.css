@@ -1,13 +1,24 @@
 .card {
     border: 2px solid red;
-    background-color: #999;
 }
 
 .img img {
     width: 100%;
     object-fit: cover;
+    object-position: top;
+    display: block;
+    max-height: 10em;
 }
 
 .info {
-    
+    background-color: #999;
+    padding: .75em;
+}
+
+.cta {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: greenyellow;
+    padding: 0.50em 1.5em
 }
